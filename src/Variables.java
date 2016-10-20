@@ -4,8 +4,7 @@ Project name: "Переменные. Примитивные типы данных"
 */
 public class Variables {
   public static void main(String[] args) {
-    int myInt;
-    myInt = 557;
+    int myInt = 557;
     System.out.println(myInt);
   }
 }
