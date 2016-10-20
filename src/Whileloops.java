@@ -1,6 +1,6 @@
 /*
 Project name: "Цикл While"
-14.10.2016
+21.10.2016
 */
 public class Whileloops {
   public static void main(String[] args) {
