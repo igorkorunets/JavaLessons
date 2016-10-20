@@ -1,0 +1,12 @@
+### Java
+*.class
+*.jar
+
+# IntelliJ
+/out/
+/.idea/
+*.iws
+*.iml
+
+### Maven template
+target/
