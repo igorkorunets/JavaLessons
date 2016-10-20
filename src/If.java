@@ -4,10 +4,13 @@ Project name: "Условный оператор if"
 */
 public class If {
   public static void main(String[] args) {
-    if(5 < 4) {
+    int myInt = 15;
+    if(myInt < 10) {
       System.out.println("Да, верно!");
+    } else if(myInt > 20) {
+      System.out.println("Так тоже верно!");
     } else {
-      System.out.println("Нет, неверно!");
+      System.out.println("Ни один из предыдущих случаев");
     }
   }
 }
