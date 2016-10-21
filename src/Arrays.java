@@ -16,5 +16,10 @@ public class Arrays {
       numbers[i] = i * 10;
       System.out.println(numbers[i]);
     }
+    System.out.println();
+    int [] numbers1 = {1,2,3};  //Этим способом мы сразу создаем массив и инициализируем значения элементов
+    for(int i = 0; i < numbers1.length; i++){
+      System.out.println(numbers1[i]);
+    }
   }
 }
