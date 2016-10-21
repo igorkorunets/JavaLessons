@@ -18,7 +18,7 @@ public class Dowhile {
     */
     Scanner scanner = new Scanner(System.in);
     int value;
-    do {
+    do {  //Ётот цикл отличаетс€ от "while" тем, что в нем сначала выполн€ютс€ инструкции, а потом провер€етс€ устовие
       System.out.println("¬ведите 5:");
       value = scanner.nextInt();
     } while(value != 5);
