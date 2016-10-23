@@ -18,5 +18,12 @@ public class Arrays_of_Strings {
     for(String string:strings) {  //Цикл "For Each". На каждой итерации цикла строка "string" поочередно ссылается на элементы массива и выводит их на экран
       System.out.println(string);
     }
+    System.out.println();
+    int[] numbers1 = {1,2,3};
+    int sum = 0;
+    for(int x:numbers1) { //На каждой итерации цикла переменная "x" ссылается на каждый элемент массива "numbers1".
+      sum = sum + x;      //Далее занчение переменной "x" прибавляется к значению переменной "sum" и т.д.
+    }
+    System.out.println(sum);  //Выводится сумма элементов массива "numbers1"
   }
 }
