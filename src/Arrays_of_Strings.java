@@ -10,7 +10,13 @@ public class Arrays_of_Strings {
     strings[0] = "Привет";
     strings[1] = "Пока";
     strings[2] = "Джава";
-    System.out.println(strings[0]);
-    System.out.println(strings[2]);
+
+    for(int i  = 0; i < strings.length; i++) {
+      System.out.println(strings[i]);
+    }
+    System.out.println();
+    for(String string:strings) {  //Цикл "For Each". На каждой итерации цикла строка "string" поочередно ссылается на элементы массива и выводит их на экран
+      System.out.println(string);
+    }
   }
 }
