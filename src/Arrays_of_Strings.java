@@ -1,6 +1,6 @@
 /*
-Project name: "Массивы в Java"
-21.10.2016
+Project name: "Цикл for each. Массивы строк"
+23.10.2016
 */
 public class Arrays_of_Strings {
   public static void main(String[] args) {
